@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="bottom1">tab1</string>
+    <string name="bottom2">tab2</string>
+    <string name="bottom3">tab3</string>
+
+</resources>
