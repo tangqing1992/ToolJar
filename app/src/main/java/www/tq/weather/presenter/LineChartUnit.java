@@ -16,6 +16,8 @@ import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import www.tq.weather.unit.DataUnit;
+
 public class LineChartUnit {
 
 
@@ -90,7 +92,7 @@ public class LineChartUnit {
         AxisValueFormatter AxisValueFormatter = new AxisValueFormatter() {
             @Override
             public String getFormattedValue(float value, AxisBase axis) {
-                return UnitData.getvalueCeil(value,3);
+                return DataUnit.getvalueCeil(value,2);
             }
 
             @Override

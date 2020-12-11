@@ -11,6 +11,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import www.tq.weather.unit.DateUnit;
+
 public class FileSave {
     /*图片目录*/
     public static  final String dirpath_default = Environment.getExternalStorageDirectory().getAbsolutePath() + "/www.bitcon.mixswap/photos";
@@ -43,7 +45,7 @@ public class FileSave {
         }
         DbUnit.logd("dirpath","---dirpath="+dirpath);
 
-        String name = UnitDate.getTime(System.currentTimeMillis(),"yyyyMMddHHmmss")+ ".jpg";
+        String name = DateUnit.getTime(System.currentTimeMillis(),"yyyyMMddHHmmss")+ ".jpg";
         Bitmap bmp = (Bitmap) data.getExtras().get("data");// 解析返回的图片成bitmap
         // 保存文件
         FileOutputStream fos = null;
