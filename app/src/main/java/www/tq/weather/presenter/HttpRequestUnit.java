@@ -15,7 +15,6 @@ import javax.net.ssl.SSLSession;
 import okhttp3.Call;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
-import www.tq.weather.model.DbUnit;
 
 
 public class HttpRequestUnit {

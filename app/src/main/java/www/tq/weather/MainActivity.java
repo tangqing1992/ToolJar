@@ -7,13 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import www.tq.weather.model.DbUnit;
 
 public class MainActivity extends AppCompatActivity {
 

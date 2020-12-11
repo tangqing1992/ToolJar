@@ -9,7 +9,6 @@ import android.os.Message;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import www.tq.weather.model.DbUnit;
 import www.tq.weather.model.PermissionsUnit;
 
 public class StartPageActivity extends Activity {

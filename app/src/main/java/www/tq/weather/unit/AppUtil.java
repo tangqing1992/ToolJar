@@ -21,8 +21,6 @@ import androidx.core.content.FileProvider;
 
 import java.io.File;
 
-import www.tq.weather.model.DbUnit;
-
 public class AppUtil {
 
     private static String tag = "AppUtils";

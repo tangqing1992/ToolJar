@@ -16,14 +16,9 @@ import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 
-import java.security.PrivateKey;
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 
-import www.tq.weather.model.DbUnit;
-import www.tq.weather.model.MediaFile;
-import www.tq.weather.presenter.FileSearch;
 import www.tq.weather.presenter.LineChartUnit;
 import www.tq.weather.views.PieView;
 
